@@ -4,7 +4,7 @@ import{motion} from 'framer-motion'
 
 const Aboutme = () => {
   return (
-    <div className="mt-16 p-12">
+    <div className="my-8 p-12">
       <div className="flex justify-center">
         <h3 className="text-3xl">About</h3>
         <h3 className="text-slate-600 ml-2 text-3xl">Me</h3>
@@ -18,19 +18,19 @@ const Aboutme = () => {
                 >
                 <h1 className="text-3xl font-normal">Engineering</h1>
                   <p className="text-xl font-normal mt-4">Manav rachna international insitute of research and studies</p>
-                  <div className="flex justify-between mt-4">
+                  <div className="flex justify-between mt-4 font-normal">
                     <p>computer science(digital forensices and cybersecurity)</p>
                     <p>CGPA:6.89</p>
                   </div>
                   <h1 className="text-3xl font-normal mt-8">Intermediate</h1>
                   <p className="text-xl font-normal mt-4">Narayana Junior College</p>
-                  <div className="flex justify-between mt-4">
+                  <div className="flex justify-between mt-4 font-normal">
                     <p>MPC</p>
                     <p>CGPA:8.09</p>
                   </div>
                   <h1 className="text-3xl font-normal mt-8">10th Standard</h1>
                   <p className="text-xl font-normal mt-4">Narayana e-Techno School</p>
-                  <div className="flex justify-start mt-4">
+                  <div className="flex justify-start mt-4 font-normal">
                     <p>CGPA:9.2</p>
                   </div>
                 </motion.div>
