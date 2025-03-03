@@ -4,7 +4,7 @@ import{motion} from 'framer-motion'
 
 const Aboutme = () => {
   return (
-    <div className="lg:p-12">
+    <div className="lg:p-12 h-fit my-6">
       <div className="flex justify-center">
         <h3 className="text-3xl text-white">About</h3>
         <h3 className="text-slate-600 ml-2 text-3xl">Me</h3>
