@@ -2,7 +2,7 @@ import React from 'react'
 import{motion} from 'framer-motion'
 const Contact = () => {
   return (
-    <div className="flex justify-center pb-4 mb-24 mt-96 lg:mt-8 border-t border-neutral-300">
+    <div className="flex justify-center pb-4 mb-24 mt-72 lg:mt-8 border-t border-neutral-300">
       <div className="font-medium">
         <motion.h1 
         whileInView={{opacity:1,y:0}}
