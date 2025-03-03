@@ -11,7 +11,7 @@ const container=(delay)=>({
 })
 const Hero = () => {
   return (
-      <div className="flex flex-col mt-16 ml-8 width-full lg:flex-row lg:justify-around">
+      <div className="flex flex-col mt-16 ml-8 width-fit lg:flex-row lg:justify-around">
         <div className="flex flex-col  items-center lg:items-start ">
             <motion.h1 
             variants={container(0)}
